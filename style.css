@@ -67,5 +67,17 @@ button{
     background: rgb(8, 6, 141);
     color: white;
     border-radius: 15px;
-    border: 2px solid blue;
+    border: none;
+}
+
+#button-link{
+    display: flex;
+    flex-direction: column;
+    gap: 25%;
+}
+
+#hero{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
